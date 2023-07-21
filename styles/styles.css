@@ -115,3 +115,42 @@ font-family: 'Work Sans', sans-serif;
 }
 
 /* Banner section End */
+
+
+/* Funny videos SeCtion start */
+.funny-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.funny-video-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;   
+}
+.funny-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.funny-content{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.funny-video-description{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+}
+
+
+
+
+/* Funny videos SeCtion End */
