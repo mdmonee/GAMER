@@ -118,6 +118,9 @@ font-family: 'Work Sans', sans-serif;
 
 
 /* Funny videos SeCtion start */
+.funny{
+    margin-top: 200px;
+}
 .funny-title{
     color: #0B0223;
     text-align: center;
@@ -151,6 +154,39 @@ font-weight: 500;
 }
 
 
-
-
 /* Funny videos SeCtion End */
+
+
+/* play SecTon */
+.play{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 150px;
+
+}
+.play-content-title{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+
+font-weight: 700;
+
+}
+.play-title-edit{
+
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.sec-img{
+    width: 318.5px;
+    position: relative;
+    bottom: 280px;
+    right: 200px;
+    border-radius: 8px solid #FFF;
+    
+
+}
