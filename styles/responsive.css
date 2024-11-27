@@ -1,0 +1,108 @@
+/* General styles for small screens */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .nav-item-container {
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 0;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .banner-container {
+        background-image: none;
+    }
+
+    .banner-btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .funny-content {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .play {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .play-content-title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .sec-img {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .catagory {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .LInks, .terms {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* For very small screens (mobile phones) */
+@media (max-width: 480px) {
+    .nav-title {
+        font-size: 1.5rem;
+    }
+
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .banner-title-goat {
+        font-size: 60px;
+    }
+
+    .funny-title {
+        font-size: 28px;
+    }
+
+    .play-content-title {
+        font-size: 24px;
+    }
+
+    .catagory {
+        grid-template-columns: 1fr;
+    }
+}
