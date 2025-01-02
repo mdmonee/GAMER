@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.game {
+    text-align: center;
+    padding: 20px;
+}
+
+.title p {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.cards {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+}
+.card {
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: #f4f4f4;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.4;
+}
+
+.card-button {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.card-button:hover {
+    background: linear-gradient(180deg, #8758F1 0%, #F948B2 100%);
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .title p {
+        font-size: 2rem;
+    }
+
+    .card-description {
+        font-size: 0.85rem;
+    }
+
+    .card-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title p {
+        font-size: 1.75rem;
+    }
+
+    .card-description {
+        font-size: 0.8rem;
+    }
+
+    .card-button {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+}

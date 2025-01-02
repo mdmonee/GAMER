@@ -33,13 +33,14 @@
 }
 
 .nav-title {
-    font-size: 2.813rem;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.g-color {
-    color: #FF42A5;
-}
+
 
 .nav-item-container {
     display: flex;
@@ -55,15 +56,41 @@
     text-decoration: none;
 }
 
-.follow-btn {
-    width: 125px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    align-items: center;
-    text-align: center;
 
+.sing-up-btn {
+    padding: 21px 40px;
+    align-items: center;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF6F91, #FF9671); 
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.sing-up-btn:hover {
+    background: linear-gradient(90deg, #FF9671, #FFC75F);
+    transform: scale(1.05);
+    color: #FFFFFF; 
+    cursor: pointer;
+}
+
+.sing-in-btn {
+    padding: 21px 40px;
+    align-items: center;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF6F91, #FF9671); 
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+.sing-in-btn:hover {
+
+    background: linear-gradient(90deg, #FF9671, #FFC75F);
+    transform: scale(1.05);
+    color: #FFFFFF; 
+    cursor: pointer;
 }
 
 /* Navbar SecTion End */
@@ -105,28 +132,31 @@
 
 .banner-btn {
     gap: 24px;
+    margin-top: 60px;
+
 }
 
-.sing-up-btn {
+
+.explore-btn {
+    
     padding: 21px 40px;
     align-items: center;
-    border-radius: 48px;
-    background: #FF42A5;
+    border-radius: 36px;
+    background: linear-gradient(90deg, #4EC5F7, #3A9EC2); 
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    text-decoration: none;
 }
 
-.go-btn {
-    padding: 21px 40px;
-    align-items: center;
-    border-radius: 48px;
-    background: #4EC5F7;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-
+.explore-btn:hover {
+    background: linear-gradient(90deg, #3A9EC2, #FF6F91); 
+    transform: scale(1.05);
+    color: #FFFFFF; 
+    cursor: pointer;
 }
+
 
 /* Banner section End */
 
