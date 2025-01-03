@@ -18,6 +18,47 @@ body {
     font-weight: 700;
 }
 
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+    border-color: #8758F1;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.search-button:hover {
+    background: linear-gradient(180deg, #8758F1 0%, #F948B2 100%);
+    transform: scale(1.05);
+}
+
+
 .cards {
     padding-top: 40px;
     display: flex;
